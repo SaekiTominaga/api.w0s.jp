@@ -150,8 +150,8 @@ importers:
         specifier: '=24.13.2'
         version: 24.13.2
       '@w0s/oxlint-config':
-        specifier: '=1.0.8'
-        version: 1.0.8(oxlint-plugin-safely-storage@1.0.2(@oxlint/plugins@1.80.0)(oxlint@1.83.0(oxlint-tsgolint@7.0.2003)))(oxlint-tsgolint@7.0.2003)(oxlint@1.83.0(oxlint-tsgolint@7.0.2003))
+        specifier: '=1.0.9'
+        version: 1.0.9(oxlint-plugin-safely-storage@1.0.2(@oxlint/plugins@1.80.0)(oxlint@1.83.0(oxlint-tsgolint@7.0.2003)))(oxlint-tsgolint@7.0.2003)(oxlint@1.83.0(oxlint-tsgolint@7.0.2003))
       '@w0s/tsconfig':
         specifier: '=3.2.2'
         version: 3.2.2(typescript@7.0.2)
@@ -643,8 +643,8 @@ packages:
     resolution: {integrity: sha512-0pQpVF6gSkTxijQghYpBOVtTpBBGlaHm9+fZtoLk17GGc3XNPNEH/Pevl4RdkA/WQ1xlBzGKHd0l6kURlpkC2A==}
     engines: {node: '>=22'}
 
-  '@w0s/oxlint-config@1.0.8':
-    resolution: {integrity: sha512-JEEOjWC5z14SXXet0kabUkXLWlWsV8IsYgFjm2baZu+vIoNbfR93NmRIeKsSXPkxY3G43G+NvUG5iUJWIFVZtQ==}
+  '@w0s/oxlint-config@1.0.9':
+    resolution: {integrity: sha512-tdZFRUUch/dyvqfI0O1mVx6uBU0OUFIrgSB1473K8CqldjiWCmTCtLZIckNNLjkXw3cUG5xwKQROonuV8OVvTQ==}
     peerDependencies:
       oxlint: ^1.80.0
       oxlint-plugin-safely-storage: ^1.0.0
@@ -1208,7 +1208,7 @@ snapshots:
 
   '@w0s/env-value-type@2.0.2': {}
 
-  '@w0s/oxlint-config@1.0.8(oxlint-plugin-safely-storage@1.0.2(@oxlint/plugins@1.80.0)(oxlint@1.83.0(oxlint-tsgolint@7.0.2003)))(oxlint-tsgolint@7.0.2003)(oxlint@1.83.0(oxlint-tsgolint@7.0.2003))':
+  '@w0s/oxlint-config@1.0.9(oxlint-plugin-safely-storage@1.0.2(@oxlint/plugins@1.80.0)(oxlint@1.83.0(oxlint-tsgolint@7.0.2003)))(oxlint-tsgolint@7.0.2003)(oxlint@1.83.0(oxlint-tsgolint@7.0.2003))':
     dependencies:
       oxlint: 1.83.0(oxlint-tsgolint@7.0.2003)
       oxlint-plugin-safely-storage: 1.0.2(@oxlint/plugins@1.80.0)(oxlint@1.83.0(oxlint-tsgolint@7.0.2003))
