@@ -16,7 +16,7 @@
 		"better-sqlite3": "=12.11.1",
 		"ejs": "=6.0.1",
 		"hono": "=4.13.13",
-		"kysely": "=0.29.6",
+		"kysely": "=0.29.7",
 		"nodemailer": "=10.2.1",
 		"winston": "=3.19.0",
 		"winston-transport": "=4.9.0"
