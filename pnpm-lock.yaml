@@ -131,8 +131,8 @@ importers:
         specifier: '=0.29.6'
         version: 0.29.6
       nodemailer:
-        specifier: '=10.1.4'
-        version: 10.1.4
+        specifier: '=10.2.1'
+        version: 10.2.1
       winston:
         specifier: '=3.19.0'
         version: 3.19.0
@@ -821,8 +821,8 @@ packages:
     resolution: {integrity: sha512-rebQ/lz7i0EkoLzUVSrKRzA69zMkwLp95kKMWoMDkkM00Suxz0D7zEQPwRml5fQum24mj7bPvmlgLAmu2JCiYg==}
     engines: {node: '>=10'}
 
-  nodemailer@10.1.4:
-    resolution: {integrity: sha512-EsMnOR2oRv4LGnWvHgcVYkkQ4O2j8KO4WTw6l+PHR4sOXo8SAgIraxtEnGDmotjbhv0hDsu3IuDIFZm8iXwO4A==}
+  nodemailer@10.2.1:
+    resolution: {integrity: sha512-ZrDNsPFoDMwefNs7sJwrYiEJ/CG4ClJWDZv05iNJsEBWa8GRDry1QJHTJxsuTAY9eDDKjX4k+q3SxslXJOao7w==}
     engines: {node: '>=20.0.0'}
 
   once@1.4.0:
@@ -1378,7 +1378,7 @@ snapshots:
     dependencies:
       semver: 7.8.5
 
-  nodemailer@10.1.4: {}
+  nodemailer@10.2.1: {}
 
   once@1.4.0:
     dependencies:
