@@ -179,8 +179,8 @@ importers:
         specifier: '=13.0.3'
         version: 13.0.3
       ejs:
-        specifier: '=6.0.1'
-        version: 6.0.1
+        specifier: '=7.0.2'
+        version: 7.0.2
       hono:
         specifier: '=4.13.14'
         version: 4.13.14
@@ -747,8 +747,8 @@ packages:
     resolution: {integrity: sha512-ezmVcLR3xAVp8kYOm4GS45ZLLgIE6SPAFoduLr6hTDajwb3KZ2F46gulK3XpcwRFb5KKGCSezCBAY4Dw4HsyXA==}
     engines: {node: '>=18'}
 
-  ejs@6.0.1:
-    resolution: {integrity: sha512-UaaM14yby8U3k02ihS1Bmj5Kz2d7CCQM1scxpgs4Mhkq8F1wR2gl3+Ts4h5Ne4Mnt7M9m4Dw7jsuMr3+xO4vZA==}
+  ejs@7.0.2:
+    resolution: {integrity: sha512-LcDSEP6Oclb9sTiSyG0MpG0RuKvLDRxCOOt+2sIk+kdk1rMkFU8SRnT0qaNt5zvU0LOV1YXXOvIoZL/sKwabvw==}
     engines: {node: '>=0.12.18'}
     hasBin: true
 
@@ -1198,7 +1198,7 @@ snapshots:
       color-convert: 3.1.3
       color-string: 2.1.4
 
-  ejs@6.0.1: {}
+  ejs@7.0.2: {}
 
   enabled@2.0.0: {}
 
