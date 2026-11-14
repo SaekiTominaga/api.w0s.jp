@@ -9,6 +9,7 @@ import { env } from '@w0s/env-value-type';
 import { getLogger } from './logger.ts';
 import config from './config/hono.ts';
 import { cspApp } from './controller/csp.ts';
+import { domEventApp } from './controller/domEvent.ts';
 import { jsApp } from './controller/js.ts';
 import { jsSampleApp } from './controller/jsSample.ts';
 import { referrerApp } from './controller/referrer.ts';
@@ -75,6 +76,13 @@ app.use(
 	}),
 );
 app.use(
+	`/report/domevent`,
+	cors({
+		origin: env('DOMEVENT_ALLOW_ORIGINS', 'string[]'),
+		allowMethods: ['POST'],
+	}),
+);
+app.use(
 	`/report/js`,
 	cors({
 		origin: env('JS_ALLOW_ORIGINS', 'string[]'),
@@ -105,6 +113,7 @@ app.use(
 
 /* Routes */
 app.route(`/report/csp`, cspApp);
+app.route(`/report/domevent`, domEventApp);
 app.route(`/report/js`, jsApp);
 app.route(`/report/js-sample`, jsSampleApp);
 app.route(`/report/referrer`, referrerApp);

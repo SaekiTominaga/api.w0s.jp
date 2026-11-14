@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="ja">
+	<head>
+		<style>
+			table {
+				border-collapse: collapse;
+			}
+
+			th,
+			td {
+				padding: 0.5em;
+				border: 1px solid;
+			}
+
+			th {
+				background: #eee;
+				text-align: left;
+			}
+
+			dt {
+				font-weight: bold;
+			}
+
+			dd {
+				margin-left: 1em;
+			}
+		</style>
+	</head>
+	<body>
+		<table>
+			<tbody>
+				<tr>
+					<th>ページ URL</th>
+					<td>
+						<a href="<%= documentURL %>"><%= documentURL %></a>
+					</td>
+				</tr>
+				<tr>
+					<th>イベント名</th>
+					<td><%= eventName %></td>
+				</tr>
+			</tbody>
+		</table>
+
+		<dl>
+			<dt>ユーザーエージェント</dt>
+			<dd><%= ua %></dd>
+		</dl>
+	</body>
+</html>
