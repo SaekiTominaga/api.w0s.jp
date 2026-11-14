@@ -37,7 +37,7 @@ await test('documentURL invalid', async () => {
 	assert.equal((await res.json()).message, 'The `documentURL` parameter is invalid');
 });
 
-await test('eventName undefined', async () => {
+await test('eventType undefined', async () => {
 	const res = await app.request('/report/domevent', {
 		method: 'post',
 		headers: new Headers({ Origin: origin, 'Content-Type': 'application/json' }),
@@ -45,5 +45,5 @@ await test('eventName undefined', async () => {
 	});
 
 	assert.equal(res.status, 400);
-	assert.equal((await res.json()).message, 'The `eventName` parameter is invalid');
+	assert.equal((await res.json()).message, 'The `eventType` parameter is invalid');
 });

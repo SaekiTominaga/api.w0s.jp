@@ -10,14 +10,14 @@ import { json as jsonValidator } from '../validator/domEvent.ts';
 export const domEventApp = new Hono<{ Variables: Variables }>().post(jsonValidator, async (context) => {
 	const { req } = context;
 
-	const { documentURL, eventName } = req.valid('json');
+	const { documentURL, eventType } = req.valid('json');
 
 	const ua = req.header('User-Agent');
 
 	/* メール通知 */
 	const html = await ejs.renderFile(`${env('ROOT')}/${env('TEMPLATE_DIR')}/mail/domEvent.ejs`, {
 		documentURL: documentURL,
-		eventName: eventName,
+		eventType: eventType,
 		ua: ua,
 	});
 

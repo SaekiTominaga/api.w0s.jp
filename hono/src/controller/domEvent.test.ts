@@ -40,7 +40,7 @@ await test('success', async () => {
 	const res = await app.request('/report/domevent', {
 		method: 'post',
 		headers: new Headers({ Origin: origin, 'Content-Type': 'application/json' }),
-		body: JSON.stringify({ documentURL: 'xxx', eventName: 'xxx' }),
+		body: JSON.stringify({ documentURL: 'xxx', eventType: 'xxx' }),
 	});
 
 	assert.equal(res.status, 204);
