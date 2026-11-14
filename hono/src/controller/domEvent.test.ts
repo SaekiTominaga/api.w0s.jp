@@ -3,7 +3,7 @@ import { test } from 'node:test';
 import { env } from '@w0s/env-value-type';
 import app from '../app.ts';
 
-const origin = env('JS_ALLOW_ORIGINS', 'string[]').at(0)!;
+const origin = env('DOMEVENT_ALLOW_ORIGINS', 'string[]').at(0)!;
 
 await test('cors', async (t) => {
 	await t.test('no origin', async () => {
