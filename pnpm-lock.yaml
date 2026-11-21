@@ -188,8 +188,8 @@ importers:
         specifier: '=0.29.8'
         version: 0.29.8
       nodemailer:
-        specifier: '=10.3.1'
-        version: 10.3.1
+        specifier: '=10.5.0'
+        version: 10.5.0
       winston:
         specifier: '=3.19.0'
         version: 3.19.0
@@ -819,8 +819,8 @@ packages:
     resolution: {integrity: sha512-VijLXbi3UACN69I0JVXJsX4tjACjNoQDgv2gTF6sx2wWEi8tkSg2eX8p5gSIFi8z2+DL3oHmY6OyKce38SDolg==}
     engines: {node: ^18 || ^20 || >= 21}
 
-  nodemailer@10.3.1:
-    resolution: {integrity: sha512-uF0AFsJC07Y1vdW7p580DKAnh7rAO+4UPSSB3mDCPNDufoiaOebV6JmrzpxB14OjEEEiBsNdYoM2Y+fN8M7BBA==}
+  nodemailer@10.5.0:
+    resolution: {integrity: sha512-L/w/HH5MqpzMDuZD7fQdt/+KqymuvrpaApaIjAH2XA3ILePwlcvXCVVvP75xVrXCEt2ggK2marrrHHFB5Qu0kA==}
     engines: {node: '>=20.0.0'}
 
   one-time@1.0.0:
@@ -1281,7 +1281,7 @@ snapshots:
 
   node-addon-api@8.9.2: {}
 
-  nodemailer@10.3.1: {}
+  nodemailer@10.5.0: {}
 
   one-time@1.0.0:
     dependencies:
